@@ -51,7 +51,7 @@ https://<your-local-ip>:3001
 For Software:
 
 # Screenshots 
-![alt text](https://github.com/Festin/[reponame]/blob/[branch]/image.jpg?raw=true)
+![alt text](Screenshot 2025-08-15 064218.png?raw=true)
 
 
 
