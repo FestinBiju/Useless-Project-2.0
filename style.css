@@ -1,0 +1,77 @@
+body {
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial,
+    "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100svh;
+  background: #0b1020 radial-gradient(60% 60% at 50% 30%, #151c34 0%, #0b1020 70%);
+  margin: 0;
+  color: #e9eefc;
+}
+
+.container {
+  text-align: center;
+  padding: 32px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.04);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  width: min(520px, 92vw);
+}
+
+h1 {
+  margin: 0 0 12px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+#status {
+  margin-bottom: 20px;
+  font-size: 1.05rem;
+  color: #a8b3d6;
+}
+
+.ptt-row {
+  display: grid;
+  gap: 8px;
+  justify-items: center;
+}
+
+#talkBtn {
+  padding: 16px 28px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 999px;
+  background: linear-gradient(180deg, #3ba55d 0%, #2c8b4a 100%);
+  color: white;
+  transition: transform 0.02s ease, filter 0.2s ease;
+  box-shadow: 0 6px 20px rgba(59, 165, 93, 0.35);
+  min-width: 220px;
+}
+
+#talkBtn:active {
+  transform: translateY(1px) scale(0.99);
+  filter: brightness(0.96);
+}
+
+#talkBtn[aria-pressed="true"] {
+  background: linear-gradient(180deg, #c95731 0%, #a44629 100%);
+  box-shadow: 0 6px 20px rgba(201, 87, 49, 0.35);
+}
+
+.hint {
+  font-size: 0.9rem;
+  color: #98a4c5;
+  opacity: 0.85;
+}
+
+kbd {
+  background: #1a2340;
+  border: 1px solid #2a3357;
+  border-bottom-width: 2px;
+  border-radius: 6px;
+  padding: 2px 6px;
+  font-family: inherit;
+  color: #e9eefc;
+}
