@@ -51,7 +51,7 @@ https://<your-local-ip>:3001
 For Software:
 
 # Screenshots 
-![alt text](Screenshot 2025-08-15 064218.png?raw=true)
+![alt text]([Screenshot 2025-08-15 064218.png?raw=true](https://github.com/FestinBiju/Useless-Project-2.0/blob/main/Screenshot%202025-08-15%20064218.png))
 
 
 
